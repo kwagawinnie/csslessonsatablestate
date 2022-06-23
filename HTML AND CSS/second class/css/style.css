@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-container {
+    width: 60;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.card {
+    background: rgb(9, 181, 229);
+    box-shadow: 0 0 5px brown;
+    transition: all .1s ease-in;
+    position:absolute;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: blueviolet;
+}
+
+.card:hover {
+    top: -2px;
+    box-shadow: 0 4px;
+}
+.card img {
+    width: 100;
+    height: auto;
+    object-fit: contain;
+    object-position: 0px;
+    }
+    .mk-info h2{
+        size: 2px;
+    }
